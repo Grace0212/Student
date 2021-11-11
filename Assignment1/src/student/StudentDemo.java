@@ -19,7 +19,7 @@ public class StudentDemo {
 		
 		Connection com=DriverManager.getConnection(url,name,password);
 		
-		System.out.println("«Î ‰»Îid:");
+		System.out.println("Please enter the id:");
 		int a = new Scanner(System.in).nextInt();
 		
 		String sql="select id,Name,MathMark,ScienceMark from Student where id='"+a+"'";
